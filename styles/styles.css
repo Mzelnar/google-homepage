@@ -1,0 +1,165 @@
+body {
+    background-color: white;
+    font-family: Arial,sans-serif;
+    font-size: 14px;
+}
+
+input {
+    border: none;
+    outline: none;
+    
+    
+}
+
+
+.nav-container a {
+    text-decoration: none;
+    color: inherit;
+    padding: 8px;
+}
+
+
+
+.nav-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100%;
+    
+}
+
+.nav-container-left {
+    flex-grow: 1;
+    margin-left: 15px;
+    margin-top: 5px;
+    max-width: 100%;
+    
+   
+}
+
+.nav-container-right {
+    display: flex;
+    font-size: inherit;
+    font-family: inherit;
+    max-width: 100%;
+}
+
+.nav-container-img {
+    margin-right: 10px;
+}
+
+.app-icon {
+    background-color: transparent;
+    opacity: 0.5;
+    height: 30px;
+    margin-top: 5px;
+}
+
+.user-icon {
+    border-radius: 50%;
+    height: 30px;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 155px;
+    max-width: 100%;
+}
+
+.logo {
+    height: 92px;
+    width: 272px;
+    margin-bottom: 10px;
+}
+
+.searchbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #dfe1e5;
+    margin-top: 20px;
+    border-radius: 24px;
+    height: 45px;
+    width: 580px;
+    max-width: 100%;
+    
+}
+
+.search-input {
+    height: 85%;
+    width: 85%;
+}
+
+
+.mic-icon {
+    height: 24px;
+    width: 24px;
+}
+
+.search-icon {
+    color: transparent;
+    opacity: 0.6;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.main-buttons {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    height: 45px;
+    width: 150px;
+    margin: 5px;
+    font-family: Arial,Sans-serif;
+    font-size: 14px;
+    text-align: center;
+}
+
+.footer-container a {
+    text-decoration: none;
+    color: #70757a;
+    padding: 5px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #f2f2f2;
+    text-align: center;
+    height: 40px;
+    font-size: inherit;
+    font-family: inherit;
+    max-width: 100%;
+    
+}
+
+.footer-left {
+   margin-left: 15px;
+   margin-top: 10px;
+   max-width: 100%;
+}
+
+.footer-right {
+    margin-right: 15px;
+    margin-top: 10px;
+    max-width: 100%;
+}
+
+
+
+
+
+
+
